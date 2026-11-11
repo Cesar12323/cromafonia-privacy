@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cromafonia – Privacy Policy</title>
+<style>
+  :root { --bg:#0A0A0A; --card:#151515; --bordo:#2A2A2A; --testo:#D8D8D8; --titolo:#FFFFFF; --giallo:#FFD60A; --tenue:#9A9A9A; }
+  body { margin:0; background:var(--bg); color:var(--testo); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { color:var(--titolo); font-size:28px; margin:0 0 4px; }
+  h1 span { color:var(--giallo); }
+  h2 { color:var(--giallo); font-size:19px; margin:32px 0 8px; }
+  p, li { margin:0 0 10px; }
+  .data { color:var(--tenue); font-size:14px; margin-bottom:24px; }
+  .box { background:var(--card); border:1px solid var(--bordo); border-left:4px solid var(--giallo); border-radius:12px; padding:14px 16px; }
+  .tabella { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:15px; min-width:520px; }
+  th, td { text-align:left; padding:8px; border-bottom:1px solid var(--bordo); vertical-align:top; }
+  th { color:var(--titolo); }
+  a { color:var(--giallo); }
+  code { background:var(--card); padding:1px 5px; border-radius:4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span>Cromafonia</span> – Privacy Policy</h1>
+  <p class="data">Effective date: November 11, 2026</p>
+
+  <div class="box">
+    <p><strong>In short:</strong> Cromafonia has no accounts, no servers of its own, no ads and no analytics. Everything you create in the app stays on your phone. Some optional features contact third-party services directly from your phone, only when you use them, and send only what is needed to answer you.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Cromafonia (package <code>it.cromafonia</code>) is developed by Doctor Ai, who is responsible for this app. Contact: <a href="mailto:doctoresai0@gmail.com">doctoresai0@gmail.com</a>.</p>
+
+  <h2>Data that stays on your phone</h2>
+  <div class="tabella"><table>
+    <tr><th>Data</th><th>Why</th><th>Where</th></tr>
+    <tr><td>The list of music files on your phone</td><td>To show and play them</td><td>Read through Android, never copied elsewhere</td></tr>
+    <tr><td>Favourites, playlists, listening history, weekly statistics</td><td>App features</td><td>The app's local database</td></tr>
+    <tr><td>Lyrics already downloaded</td><td>To use them offline</td><td>The app's local database</td></tr>
+    <tr><td>API keys you enter (OpenRouter, YouTube, Jamendo)</td><td>To use the optional services</td><td>Encrypted with Android Keystore</td></tr>
+    <tr><td>Technical error log</td><td>To understand malfunctions</td><td>A local file; you send it only if you choose to, from Settings</td></tr>
+  </table></div>
+  <p>This data is excluded from Google's automatic cloud backups and is deleted when you uninstall the app. You can export it yourself to a file (Settings → Backup).</p>
+
+  <h2>Third-party services, contacted only when you use the feature</h2>
+  <div class="tabella"><table>
+    <tr><th>Service</th><th>When</th><th>What it receives</th></tr>
+    <tr><td>LRCLIB (lrclib.net)</td><td>When a song's lyrics are on screen in the player</td><td>Song title, artist, album and duration</td></tr>
+    <tr><td>OpenRouter (openrouter.ai)</td><td>AI DJ, lyrics translation or explanation — <strong>only if you entered your own key</strong></td><td>Your messages to the DJ, a short summary of your library (number of songs, most common artists and genres), the song playing, songs you attach, title/artist/album of songs the DJ searches; title, artist and lyrics when you ask for a translation or explanation. Never your listening history, statistics or playlists.</td></tr>
+    <tr><td>YouTube API Services (Google)</td><td>Search in the YouTube tab — <strong>only with your own key</strong></td><td>Your search terms. Video thumbnails are loaded from Google's servers.</td></tr>
+    <tr><td>Your phone's speech recognition service (usually Google)</td><td>Dictation in the DJ chat (microphone button)</td><td>Your voice, transcribed by the phone's service; the app receives only the text</td></tr>
+    <tr><td>Audius, Internet Archive, Jamendo</td><td>Search, streaming or download in the Free tab</td><td>Your search terms and the audio/cover file requests</td></tr>
+  </table></div>
+  <p>Requests go directly from your phone to these services: we never see or store them. As with any internet connection, these services also receive your phone's IP address. Their own privacy policies apply: <a href="https://lrclib.net">lrclib.net</a>, <a href="https://openrouter.ai/privacy">openrouter.ai/privacy</a> (and the policy of the AI model you choose), <a href="https://audius.co">audius.co</a>, <a href="https://archive.org">archive.org</a>, <a href="https://www.jamendo.com">jamendo.com</a>.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>The YouTube search feature uses YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies. Videos open in the YouTube app; Cromafonia does not download YouTube content or play it in the background. You can stop this access at any time by removing your key (Settings → Remove YouTube); you can also manage or revoke your key in the Google Cloud Console.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not sell, share or analyse your data.</li>
+    <li>We use no ads, trackers, advertising identifiers or third-party analytics.</li>
+    <li>We do not ask for your name, email, location or contacts.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Music and audio</strong>: to find and play the songs saved on your phone.</li>
+    <li><strong>Foreground service (media playback)</strong>: to keep music playing in the background, with a playback notification and controls.</li>
+    <li><strong>Internet</strong>: only for the optional features listed above.</li>
+  </ul>
+
+  <h2>AI-generated content</h2>
+  <p>Answers from the AI DJ, translations and lyrics explanations are generated automatically by the model you choose and may contain mistakes. You can report an inappropriate answer with the "Report" button: the report is sent with the app you choose (for example your email app) to <a href="mailto:doctoresai0@gmail.com">doctoresai0@gmail.com</a> and contains only what you see before sending.</p>
+
+  <h2>Children</h2>
+  <p>Cromafonia is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+  <h2>Your rights</h2>
+  <p>Because we hold no data about you, there is nothing for us to access, correct or delete on your behalf: everything is on your phone and you control it. For data sent to third-party services, their policies apply. For any question write to <a href="mailto:doctoresai0@gmail.com">doctoresai0@gmail.com</a>. If you live in the EU, you also have the right to lodge a complaint with your data protection authority (in Italy: <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>).</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we will update this page and the effective date before the change takes effect.</p>
+</main>
+</body>
+</html>
